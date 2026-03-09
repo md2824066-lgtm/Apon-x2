@@ -98,7 +98,7 @@ module.exports = {
  categories[cat].push(name);
  }
 
- const helpImage = "https://files.catbox.moe/4h41x5.jpg";
+ const helpImage = "https://files.catbox.moe/uoljwh.mp4";
  const input = args.join(" ").trim();
 
  if (args[0] === "-c" && args[1]) {
@@ -125,7 +125,7 @@ module.exports = {
  msg += "╭──────୨ৎ──────╮\n";
  msg += `╎ 🔢 𝐓𝐨𝐭𝐚𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬: ${total}\n`;
  msg += `╎ ⚡️ 𝐏𝐫𝐞𝐟𝐢𝐱: ${prefix}\n`;
- msg += "╎ 👤 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: 𝐒𝐚𝐢𝐦𝐱𝟔𝟗𝐱\n";
+ msg += "╎ 👤 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: Apon\n";
  msg += "╰──────୨ৎ──────╯";
 
  return message.reply({
@@ -152,7 +152,7 @@ module.exports = {
  msg += "╭──────୨ৎ──────╮\n";
  msg += `╎ 🔢 𝐓𝐨𝐭𝐚𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬: ${commands.size}\n`;
  msg += `╎ ⚡️ 𝐏𝐫𝐞𝐟𝐢𝐱: ${prefix}\n`;
- msg += "╎ 👤 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: 𝐒𝐚𝐢𝐦𝐱𝟔𝟗𝐱\n";
+ msg += "╎ 👤 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: Apon\n";
  msg += "╰──────୨ৎ──────╯";
 
  return message.reply({
